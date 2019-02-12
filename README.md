@@ -29,7 +29,7 @@ No Windows, você provavalmente precisa baixar [daqui](http://www.rarlab.com/rar
 
 1. Clone esse repositório: `git clone https://github.com/neyestrabelli/legendei-dl.git`.
 1. Entre na pasta com `cd legendei-dl`.
-1. Rode `npm build` (Você vai precisar do [Node.js e npm](https://nodejs.org/))).
+1. Rode `npm run build` (Você vai precisar do [Node.js e npm](https://nodejs.org/))).
 1. Voce pode setar o diretorio de onde ira checar as legendas no dist/config.js ou então executar passando para o comando
 1. O comando `legendei-dl` estará disponível no path
 1. Você poderá simplesmente executar como `legendei-dl` ou  `legendei-dl /downloads/series/`
