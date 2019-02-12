@@ -7,8 +7,8 @@
     var q = require('q');
     var directory;
     var config;
-    if (fs.existsSync('./config.js')) {
-        config = require('./config');
+    if (fs.existsSync(__dirname+'/config.js')) {
+        config = require(__dirname+'/config');
         if(config.seriesPath) directory = config.seriesPath;
     }
 
