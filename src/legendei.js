@@ -2,7 +2,6 @@ var fs = require('fs');
 var request = require('request');
 var cheerio = require('cheerio');
 var download = require('download-file');
-var unzip = require('unzip');
 var utils = require('./utils');
 var q = require('q');
 var path = require('path');

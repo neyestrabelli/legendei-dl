@@ -1,6 +1,6 @@
 {
   "name": "legendei-dl",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Download subtitles from legendei.com",
   "main": "index.js",
   "author": "Ney Estrabelli",
