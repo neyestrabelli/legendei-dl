@@ -16,7 +16,7 @@ legendeiDL.prototype.search  = function (parameters) {
    file = file.replace(/\.[^/.]+$/, "");
    var def = q.defer();
    console.log('Buscando legenda para '+file.green);
-   var urlSearch = 'https://legendei.com/?s='+file;
+   var urlSearch = 'https://legendei.to/?s='+file;
    var seasonEp = /S\d\dE\d\d/i;
    var m = urlSearch.match(seasonEp);
    if(!m) {
@@ -31,7 +31,7 @@ legendeiDL.prototype.search  = function (parameters) {
    request(urlSearch, function(error, response, html){
            if(!error){
                var $ = cheerio.load(html);
-               $('.legendeitm-grid-post-title a').filter(function(){
+               $('.simple-grid-grid-post-inside a').filter(function(){
                    var data = $(this);
                    urlSerie = data.attr('href');
                    if(!parameters.isMovie){
